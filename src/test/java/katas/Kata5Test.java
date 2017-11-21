@@ -12,4 +12,10 @@ public class Kata5Test {
     public void testExecute() {
         Assert.assertThat(Kata5.execute(), equalTo(4));
     }
+    
+    @Test
+    public void testExecutePadrao() {
+    	Assert.assertThat(Kata5.execute(), equalTo(5.0));
+    	System.out.println(Kata5.execute());
+    }
 }
